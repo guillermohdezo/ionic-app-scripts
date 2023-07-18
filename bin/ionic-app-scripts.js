@@ -16,8 +16,6 @@ if (process.argv.length > 2) {
     }
   }
 
-  require('../lab/index').run(process.argv[2]);
-
 } else {
   console.error('Missing ionic app script task name');
 }
